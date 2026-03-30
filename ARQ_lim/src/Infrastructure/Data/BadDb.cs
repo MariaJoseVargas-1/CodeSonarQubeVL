@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 public static class BadDb
 {
-    public static string ConnectionString = "Server=localhost;Database=master;User Id=sa;Password=SuperSecret123!;TrustServerCertificate=True";
+    public static string ConnectionString { get; set;}
 
 
     public static int ExecuteNonQueryUnsafe(string sql)
