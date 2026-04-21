@@ -1,0 +1,5 @@
+C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\Application\obj\Debug\net8.0\Application.sourcelink.json

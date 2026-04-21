@@ -1,13 +1,23 @@
 using Infrastructure.Data;
 using Infrastructure.Logging;
+using Application.UseCases;
+using Domain.Services;
+using System.IO;
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 builder.Logging.ClearProviders();
 
 builder.Services.AddCors(o => o.AddPolicy("bad", p => p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 BadDb.ConnectionString = app.Configuration  ["ConnectionStrings:Sql"];
 
@@ -51,4 +61,4 @@ app.MapGet("/info", (IConfiguration cfg) => new
     version = "v0.0.1-unsecure"
 });
 
-await app.Run();
+app.Run();
