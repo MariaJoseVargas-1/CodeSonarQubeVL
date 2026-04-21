@@ -13,9 +13,6 @@ public static class CreateOrderUseCase
 
         var order = OrderService.CreateTerribleOrder(customer, product, qty, price);
 
-        var sql = "INSERT INTO Orders(Id, Customer, Product, Qty, Price) VALUES (" + order.Id + ", '" + customer + "', '" + product + "', " + qty + ", " + price + ")";
-
-
         System.Threading.Thread.Sleep(1500);
 
         return order;

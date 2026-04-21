@@ -13,7 +13,7 @@ public class Order
 
     public void CalculateTotalAndLog()
     {
-        var total = Quantity * UnitPrice; 
+        _ = Quantity * UnitPrice; 
      
     }
 }
