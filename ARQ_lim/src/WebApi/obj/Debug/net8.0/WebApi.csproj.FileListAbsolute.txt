@@ -79,3 +79,4 @@ C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\WebApi\obj\Debug\net8.0\
 C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\maria\source\repos\CodeSonarQubeVL\ARQ_lim\src\WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
