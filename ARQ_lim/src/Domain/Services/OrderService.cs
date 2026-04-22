@@ -11,13 +11,11 @@ public static class OrderService
 
     public static IReadOnlyList<Order> LastOrders => _lastOrders;
 
-    private static readonly Random _random = new Random();
-
     public static Order CreateTerribleOrder(string customer, string product, int qty, decimal price)
     {
         var o = new Order
         {
-            Id = _random.Next(1, 9999999),
+            Id = Random.Shared.Next(1, 9999999),
             CustomerName = customer,
             ProductName = product,
             Quantity = qty,
